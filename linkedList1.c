@@ -26,6 +26,7 @@ int main()
     Node2->data = 20;
     Node2->next = NULL;
 
+    printf("Link of head node after new node creation: %p\n", head->next);
     printf("Data of Node2: %d\n", Node2->data);
     printf("Link of Node2 before new node created: %p\n", Node2->next);
 
